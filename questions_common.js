@@ -547,9 +547,9 @@ const quizData = {
         "Câu 61. Theo Quyết định số 4290/QĐ-TLĐ ngày 01 tháng 3 năm 2022 của Tổng Liên đoàn quy định chi phối hợp hoạt động với các Tổ chức chính trị - xã hội khác là thuộc mục chi nào?",
       options: [
         "A. Chi quản lý hành chính.",
-        "C. Chi tuyên truyền, vận động đoàn viên và người lao động.",
+        "B. Chi tuyên truyền, vận động đoàn viên và người lao động.",
         "C. Chi khác.",
-        "C. Chi trực tiếp chăm lo, bảo vệ, đào tạo, bồi dưỡng, tập huấn đoàn viên và người lao động.",
+        "D. Chi trực tiếp chăm lo, bảo vệ, đào tạo, bồi dưỡng, tập huấn đoàn viên và người lao động.",
       ],
       answer: "C",
     },
