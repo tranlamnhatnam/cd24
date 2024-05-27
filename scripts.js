@@ -9,7 +9,10 @@ resultContainer.style.display = "none";
 
 // Function to generate a random number within a range
 function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  const seed = Date.now().toString();
+  const random = new Math.seedrandom(seed);
+
+  return Math.floor(random() * (max - min + 1) + min);
 }
 
 // Function to generate a random quiz with a specified number of questions
