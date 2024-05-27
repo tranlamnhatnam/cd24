@@ -13,7 +13,9 @@ function performSearch() {
     return;
   }
 
-  const filteredQuestions = quizData.questions.filter((question) => question.question.includes(searchTerm));
+  const filteredQuestions = quizData.questions.filter((question) =>
+    question.question.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   let resultHTML = "";
 
